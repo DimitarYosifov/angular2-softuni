@@ -1,0 +1,112 @@
+#container{
+    width:600px;
+    min-height: 900px;
+    border:1px solid black;
+     display: inline-block;
+     position: relative;
+    left: 275px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px solid green;
+    border-radius: 3%;
+    background: rgb(223, 255, 197);
+}
+
+#titles{
+    display: inline-block
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+#titles{
+    width: 150px;
+    position: absolute;
+    top: 180px;
+    margin-left: 63px;
+}
+.threads{
+     width: 150px;
+     margin-bottom: 20px;
+    border-radius: 20%;
+    outline: none;
+    border: 1px solid black;
+    color: white;
+    background: linear-gradient(to bottom, rgba(126,158,100,1) 15%, rgba(56,101,15,1) 49%, rgba(54,99,12,1) 50%, rgba(49,89,12,1) 64%, rgba(38,69,11,1) 94%);
+}
+#container{
+ 
+}
+
+p{
+    font-size: 22px;
+   margin: 40px 20px 0 20px;
+}
+#showmore{
+    margin-left: 500px;
+    border-radius: 35%;
+    border: 1px solid black;
+    font-size: 16px;
+     outline: none; 
+      color: white;
+    background: linear-gradient(to bottom, rgba(126,158,100,1) 15%, rgba(56,101,15,1) 49%, rgba(54,99,12,1) 50%, rgba(49,89,12,1) 64%, rgba(38,69,11,1) 94%);
+}
+
+#plus{
+    
+    position: relative;
+    bottom: 448px;
+    left: 756px;
+    border-radius: 50%;
+    outline: none;
+    width: 27px;    
+     color: white;
+     font-size: 16px;
+    background: linear-gradient(to bottom, rgba(126,158,100,1) 15%, rgba(56,101,15,1) 49%, rgba(54,99,12,1) 50%, rgba(49,89,12,1) 64%, rgba(38,69,11,1) 94%);
+    
+}
+
+#minus{
+    position: relative;
+    font-size: 16px;
+    width: 27px;
+    bottom: 448px;
+    left: 760px;
+    border-radius: 50%;
+    outline: none;
+     color: white;
+    background: linear-gradient(to bottom, rgba(126,158,100,1) 15%, rgba(56,101,15,1) 49%, rgba(54,99,12,1) 50%, rgba(49,89,12,1) 64%, rgba(38,69,11,1) 94%);
+}   
+#selection{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -477px;
+    left: 290px;
+    border-radius: 35%;
+    outline: none;
+    font-size: 17px;
+}
+
+#selection-background{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -507px;
+    left: 410px;
+    border-radius: 35%;
+    outline: none;
+    font-size: 17px;
+}
+#show-hide-button{
+    top: -25px;
+    position: relative;
+    border-radius: 35%;
+    border: 1px solid black;
+    font-size: 16px;
+     outline: none; 
+      color: white;
+    background: linear-gradient(to bottom, rgba(126,158,100,1) 15%, rgba(56,101,15,1) 49%, rgba(54,99,12,1) 50%, rgba(49,89,12,1) 64%, rgba(38,69,11,1) 94%);
+}
