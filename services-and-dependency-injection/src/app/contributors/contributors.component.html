@@ -1,0 +1,15 @@
+<h1 *ngIf='data'>Contributors Shown Below</h1>
+<table *ngIf='data'>
+    <tr>
+        <th>Contributor Name</th>
+        <th>Avatar</th>
+        <th>Contributions</th>
+        <th>Link To Github Profile</th>
+    </tr>
+    <tr *ngFor="let contributor of contributorsInfo">
+        <td>{{contributor.login}}</td>
+        <td><img src="{{contributor.avatar_url}}"></td>
+        <td>{{contributor.contributions}}</td>
+        <td><a href='{{contributor.html_url}}'>Link To Github Profile</a></td>
+    </tr>
+</table>

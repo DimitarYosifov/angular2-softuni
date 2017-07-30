@@ -1,0 +1,19 @@
+<h1 *ngIf='data'>Repos Shown Below</h1>
+<table *ngIf='data'>
+    <tr>
+        <th>Repository Name</th>
+        <th>Language</th>
+        <th>Date Of Creation</th>
+        <th>Link To Repo</th>
+        <th>View </th>
+    </tr>
+    <tr *ngFor="let repo of reposInfo">
+        <td>{{repo.name}}</td>
+        <td>{{repo.language}}</td>
+        <td>{{repo.created_at.slice(0,10)}}</td>
+        <td><a href="{{repo.html_url}}">Link</a></td>
+        <td><button (click)='repoName(this.repo.name)'>View Contributors</button></td>
+    </tr>
+</table>
+
+<contributors *ngIf='areContributrsVisible' [data]='repositoryName'></contributors>

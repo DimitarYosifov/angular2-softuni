@@ -1,0 +1,13 @@
+<h1 *ngIf='data'>Followers Shown Below</h1>
+<table *ngIf='data'>
+    <tr>
+        <th>Full Name</th>
+        <th>Avatar</th>
+        <th>Link To Github</th>
+    </tr>
+    <tr *ngFor="let follower of followersInfo">
+        <td> {{follower.login}}</td>
+        <td> <img src="{{follower.avatar_url}}"></td>
+        <td><a href="{{follower.html_url}}">Link</a></td>
+    </tr>
+</table>

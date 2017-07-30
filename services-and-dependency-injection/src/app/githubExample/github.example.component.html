@@ -1,0 +1,23 @@
+<table *ngIf='isTableVisible'>
+  <tr>
+    <th>Full Name</th>
+    <th>Avatar</th>
+    <th>Public Repos</th>
+    <th>Followers</th>
+  </tr>
+  <tr>
+    <td>{{gitHubProfileInfo?.name}}</td>
+    <td> <img src="{{gitHubProfileInfo?.avatar_url}}"></td>
+    <td>{{gitHubProfileInfo?.public_repos}}</td>
+    <td>{{gitHubProfileInfo?.followers}}</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><button (click)='viewRepos()'>View Repos</button></td>
+    <td><button (click)='viewFollowers()'>View Followers</button></td>
+  </tr>
+</table>
+
+<followers [data]="areFollowersVisible"></followers>
+<repos [data]="areReposVisible"></repos>
