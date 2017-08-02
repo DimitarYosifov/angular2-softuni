@@ -1,0 +1,9 @@
+<table >
+    <tr *ngFor='let car of carsArray'>
+        <td>{{car.make}}</td>
+        <td>{{car.model}}</td>
+        <td><img src='{{car.image}}'></td>
+        <button [routerLink]=" ['/owners/'+car.owner] ">Owner</button>
+        <button [routerLink]=" ['/cars/'+car.make+'-'+car.model] ">More Details</button>
+    </tr>
+</table>

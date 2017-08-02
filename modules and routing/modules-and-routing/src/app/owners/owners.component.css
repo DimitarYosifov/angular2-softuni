@@ -1,0 +1,18 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    border: 1px solid gold;
+    border-radius: 30%;
+    color: white;
+    background: black;
+}
+
+button:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+

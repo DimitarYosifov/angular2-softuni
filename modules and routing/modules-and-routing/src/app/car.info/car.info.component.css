@@ -1,0 +1,36 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+table,th,td{
+    border:3px solid black;
+    border-collapse: collapse;
+    background: #a4a1a3;
+    color: #edecec;
+    padding: 10px;
+}
+
+table{
+    width: 1000px;margin-bottom: 10px;
+   
+}
+.comments{
+    width: 100%;
+     border:3px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+
+button{
+    border: 1px solid gold;
+    border-radius: 30%;
+    color: white;
+    background: black;
+}
+button:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+

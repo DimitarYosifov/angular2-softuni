@@ -1,0 +1,39 @@
+img{
+    width: 400px;
+    height: 400px;
+}
+table,th,td{
+    border:3px solid black;
+    border-collapse: collapse;
+    background: #a4a1a3;
+    color: #edecec;
+    padding: 10px;
+}
+table{
+    width: 800px;
+    margin-top: 30px;
+}
+td{
+    min-width: 100px;
+}
+img{
+    padding: 20px;
+}
+button{
+    border: 0px;
+    margin-bottom: 10px;  
+    border: 1px solid gold;
+    border-radius: 30%;
+    color: white;
+    background: black; 
+}
+tr{
+    margin: 20px;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+

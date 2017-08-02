@@ -1,0 +1,12 @@
+ <p>{{paramId}}</p>
+
+  <img src='{{ownedCars[0].owner_image}}'>
+
+ <table *ngFor='let car of ownedCars'>
+    <tr>
+        <td>{{car.make}}</td>
+        <td>{{car.model}}</td>
+        <td><img src='{{car.image}}'><td>
+        <button [routerLink]=" ['/cars/'+car.make+'-'+car.model] ">More Details</button>
+    </tr>
+</table>

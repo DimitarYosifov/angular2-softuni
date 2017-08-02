@@ -1,0 +1,16 @@
+
+
+  <button (click)='sorting()'>Sort</button>
+<div>
+
+    
+       
+        <table *ngFor='let owner of newOwners' >
+            <tr >
+                <td><img src='{{owner.owner_image}}'></td>
+                <td> <a [routerLink]=" ['/owners/'+owner.owner] ">{{owner.owner}}</a></td>
+            </tr>
+        </table>
+
+   
+</div>

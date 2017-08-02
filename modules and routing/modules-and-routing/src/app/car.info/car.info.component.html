@@ -1,0 +1,28 @@
+<table>
+    <tr>
+        <th></th>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Description</th>
+        <th>Owner</th>
+        <th>Price</th>
+        <th>Engine</th>
+    </tr>
+    <tr>
+        <td><img src='{{carDetails.image}}'></td>
+        <td>{{carDetails.make}}</td>
+        <td>{{carDetails.model}}</td>
+        <td>{{carDetails.description}}</td>
+        <td> <a [routerLink]=" ['/owners/'+carDetails.owner] ">{{carDetails.owner}}</a></td>
+        <td>{{carDetails.price}}</td>
+        <td>{{carDetails.engine}}</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <h3>Comments</h3>
+    </tr>
+    
+        <tr class="comments" *ngFor='let comment of comments'><td class="comments">{{comment}}</td></tr>
+   
+</table>
